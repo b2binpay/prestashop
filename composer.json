@@ -1,0 +1,15 @@
+{
+    "name": "b2binpay/prestashop",
+    "description": "B2BinPay Crypto Payment Gateway for PrestaShop",
+    "type": "prestashop-module",
+    "require": {
+        "b2binpay/api-php": "^1.1",
+        "ralouphie/getallheaders": "^2.0 || ^3.0"
+    },
+    "license": "MIT",
+    "scripts": {
+        "post-update-cmd": [
+            "find vendor/ -type f -exec sed -i 's/GuzzleHttp/Guzzle6Http/g' {} +"
+        ]
+    }
+}

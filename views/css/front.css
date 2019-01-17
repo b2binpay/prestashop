@@ -1,0 +1,12 @@
+body#checkout section.checkout-step .payment-options .b2binpay-currency-item input,
+body#checkout section.checkout-step .payment-options .b2binpay-currency-item label {
+    display: inline-block;
+}
+
+body#checkout section.checkout-step .payment-options .b2binpay-currency-item label {
+    padding-left: 10px;
+}
+
+.b2binpay-currency-list {
+    margin-left: 40px;
+}
