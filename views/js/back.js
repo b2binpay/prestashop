@@ -28,7 +28,7 @@ $(document).ready(function () {
         counter++;
     });
 
-    $("table#b2binpayWallets").on("click", ".b2binpayWalletDel", function (event) {
+    $("table#b2binpayWallets").on("click", ".b2binpayWalletDel", function () {
         $(this).closest("tr").remove();
         counter -= 1
     });

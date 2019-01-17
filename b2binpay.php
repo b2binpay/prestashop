@@ -99,7 +99,7 @@ class B2binpay extends PaymentModule
         /**
          * If values have been submitted in the form, process.
          */
-        if (((bool)Tools::isSubmit('submitB2binpayModule')) == true) {
+        if (((bool)Tools::isSubmit('submitB2binpayModule')) === true) {
             $this->postProcess();
         }
 

@@ -2,6 +2,8 @@
 
 Accept Bitcoin, Bitcoin Cash, Litecoin, Ethereum, and other CryptoCurrencies via B2BinPay on your PrestaShop store.
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/b2binpay/prestashop/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/b2binpay/prestashop/?branch=master)
+
 ## Minimum Requirements
 
 * PHP version 7.0 or greater
