@@ -52,6 +52,7 @@ class B2binpay extends PaymentModule
         $this->version = '1.0.0';
         $this->is_eu_compatible = 1;
         $this->ps_versions_compliancy = array('min' => '1.7', 'max' => _PS_VERSION_);
+        $this->module_key = 'c1ae0a3ef16e14e71d3ded99c5faf216';
         $this->author = 'B2BinPay';
         $this->controllers = array('redirect', 'callback');
 
